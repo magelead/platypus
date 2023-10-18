@@ -1,0 +1,50 @@
+title,url,overviewInfo/description/long,sections/0/title,sections/0/url,sections/1/title,sections/1/url,sections/2/title,sections/2/url,sections/3/title,sections/3/url,sections/4/title,sections/4/url,sections/5/title,sections/5/url,sections/6/title,sections/6/url,sections/7/title,sections/7/url,sections/8/title,sections/8/url,sections/9/title,sections/9/url,sections/10/title,sections/10/url,sections/11/title,sections/11/url,sections/12/title,sections/12/url,sections/13/title,sections/13/url
+01 Prerequisites,/ch-prerequisites,"This is a comprehensive guide for setting up your environment on your
+personal computer for working with Qiskit Textbook. This will help you
+reproduce the results as you see them on the textbook website. The
+Qiskit Textbook is written in Jupyter Notebooks.
+",Setting up your environment,/ch-prerequisites/setting-the-environment,Python and Jupyter notebooks,/ch-prerequisites/python-and-jupyter-notebooks,,,,,,,,,,,,,,,,,,,,,,,,
+02 Quantum states and qubits,/ch-states,"If you think quantum mechanics sounds challenging, you’re not alone.
+Our intuitions come from day-to-day experiences, and so are better at
+understanding the behavior of balls and bananas than atoms or
+electrons. Though quantum objects can seem random and chaotic at first,
+they just follow a different set of rules. Once we know what those
+rules are, we can use them to create new and powerful technology.
+Quantum computing will be the most revolutionary example of this.
+",Introduction,/ch-states/introduction,The atoms of computation,/ch-states/atoms-computation,Representing qubit states,/ch-states/representing-qubit-states,Single qubit gates,/ch-states/single-qubit-gates,The case for quantum,/ch-states/case-for-quantum,,,,,,,,,,,,,,,,,,
+03 Multiple qubits and entanglement,/ch-gates,"We've seen some interesting effects with isolated qubits and single
+qubit gates, but the true power of quantum computing comes from
+interactions between qubits. In this section we will introduce multiple
+qubit gates and explore the interesting behaviours of multi-qubit
+systems.
+",Introduction,/ch-gates/introduction,Multiple qubits and entangled states,/ch-gates/multiple-qubits-entangled-states,Phase kickback,/ch-gates/phase-kickback,More circuit identities,/ch-gates/more-circuit-identities,Proving universality,/ch-gates/proving-universality,Classical computation on a quantum computer,/ch-gates/oracles,,,,,,,,,,,,,,,,
+04 Quantum protocols and quantum algorithms,/ch-algorithms,"So far, we've seen various quantum gates and operations, and we've
+explored some interesting properties of these gates. Each of these
+pages shows how we can combine quantum operations into a quantum
+algorithm that outperforms their classical counterpart. As a bonus,
+some of these algorithms are actually useful too!
+",Defining quantum circuits,/ch-algorithms/defining-quantum-circuits,Deutsch-Jozsa algorithm,/ch-algorithms/deutsch-jozsa,Bernstein-Vazirani algorithm,/ch-algorithms/bernstein-vazirani,Simon's algorithm,/ch-algorithms/simon,Quantum Fourier transform,/ch-algorithms/quantum-fourier-transform,Quantum phase estimation,/ch-algorithms/quantum-phase-estimation,Shor's algorithm,/ch-algorithms/shor,Grover's algorithm,/ch-algorithms/grover,Quantum counting,/ch-algorithms/quantum-counting,Quantum walk search algorithm,/ch-algorithms/quantum-walk-search-algorithm,Hidden shift problem,/ch-algorithms/hidden-shift-problem,Quantum key distribution,/ch-algorithms/quantum-key-distribution,Superdense coding,/ch-algorithms/superdense-coding,Quantum teleportation,/ch-algorithms/teleportation
+05 Applied quantum algorithms,/ch-applications,"The useful algorithms in the quantum algorithms pages solve very
+general problems. These pages apply quantum algorithms to specific,
+real-world cases.
+",Solving linear systems of equations using HHL,/ch-applications/hhl_tutorial,Simulating molecules using VQE,/ch-applications/vqe-molecules,Solving combinatorial optimization problems using QAOA,/ch-applications/qaoa,Solving satisfiability problems using Grover's algorithm,/ch-applications/satisfiability-grover,Hybrid quantum-classical neural networks with PyTorch and Qiskit,/ch-machine-learning/machine-learning-qiskit-pytorch,Quantum image processing - FRQI and NEQR image representations,/ch-applications/image-processing-frqi-neqr,Facial expression recognition,/ch-applications/facial-expression-recognition,Quantum edge detection,/ch-applications/quantum-edge-detection,Solving the travelling salesman problem using phase estimation,/ch-paper-implementations/tsp,Variational quantum linear solver,/ch-paper-implementations/vqls,,,,,,,,
+06 Investigating quantum hardware using quantum circuits,/ch-quantum-hardware,"Most gate-based quantum computers share similar challenges with noise
+and errors. These pages explore how errors affect quantum circuits, and
+how we can mitigate them, without worrying about the physics of the
+device itself.
+",Introduction to quantum error correction using repetition codes,/ch-quantum-hardware/error-correction-repetition-code,Measurement error mitigation,/ch-quantum-hardware/measurement-error-mitigation,Randomized benchmarking,/ch-quantum-hardware/randomized-benchmarking,Measuring quantum volume,/ch-quantum-hardware/measuring-quantum-volume,The density matrix and mixed states,/ch-quantum-hardware/density-matrix,,,,,,,,,,,,,,,,,,
+07 Investigating quantum hardware using microwave pulses,/ch-quantum-hardware,"The Qiskit Textbook mostly assumes we have a quantum computer that can
+carry out quantum operations, and doesn't worry about how the devices
+actually work. These pages go a step deeper, exploring the physics of
+superconducting qubits, and using Qiskit to program operations on these
+devices at the level of microwave pulses.
+",Calibrating qubits with Qiskit Pulse,/ch-quantum-hardware/calibrating-qubits-pulse,Accessing higher energy states,/ch-quantum-hardware/accessing_higher_energy_states,Introduction to transmon physics,/ch-quantum-hardware/transmon-physics,Circuit quantum electrodynamics,/ch-quantum-hardware/cQED-JC-SW,Exploring the Jaynes-Cummings Hamiltonian with Qiskit Pulse,/ch-quantum-hardware/Jaynes-Cummings-model,Measuring the qubit ac-Stark shift,/ch-quantum-hardware/ac-Stark-shift,Hamiltonian tomography,/ch-quantum-hardware/hamiltonian-tomography,,,,,,,,,,,,,,
+08 Quantum computing labs,/ch-labs,"These pages are hands-on exercises that interact with IBM Quantum's
+real quantum systems. Aimed at late-undergraduate / early-graduate
+courses, these lab modules start cover basic quantum circuits, to
+exploring core algorithms such as Grover search and Shor's algorithm.
+These pages tackle the limitations of today's quantum computers, and
+ways to account for them.
+",Lab 1. Quantum circuits,/ch-labs/Lab01_QuantumCircuits,Lab 2. Quantum measurement,/ch-labs/Lab02_QuantumMeasurement,Lab 3. Accuracy of quantum phase estimation,/ch-labs/Lab03_AccuracyQPE,Lab 4. Iterative quantum phase estimation,/ch-labs/Lab04_IterativePhaseEstimation,Lab 5. Scalable Shor’s algorithm,/ch-labs/Lab05_Scalable_Shor_Algorithm,Lab 6. Grover's search with an unknown number of solutions,/ch-labs/Lab06_Grover_search_with_an_unknown_number_of_solutions,Lab 7. Quantum simulation as a search algorithm,/ch-labs/Lab07_QuantumSimulationSearchAlgorithm,Lab 8. Quantum error correction,/ch-labs/Lab08_QEC,,,,,,,,,,,,
+09 ch-appendix,/ch-appendix,"These pages are not part of any chapter.
+",Qiskit,/ch-appendix/qiskit,Linear algebra,/ch-appendix/linear_algebra,,,,,,,,,,,,,,,,,,,,,,,,
